@@ -5,6 +5,8 @@ import (
 	"log"
 	"os"
 
+	"github.com/Azure/azure-sdk-for-go/sdk/armcore"
+	"github.com/Azure/azure-sdk-for-go/sdk/azcore"
 	"github.com/Azure/azure-sdk-for-go/sdk/azcore/arm"
 	"github.com/Azure/azure-sdk-for-go/sdk/azcore/cloud"
 	"github.com/Azure/azure-sdk-for-go/sdk/azcore/policy"
@@ -18,7 +20,10 @@ func main() {
 	if err != nil {
 		log.Fatalf("failed to obtain a credential: %v", err)
 	}
-	tiClient := armsecurityinsights.NewThreatIntelligenceIndicatorClient(os.Getenv("Subscription"), creds, &arm.ClientOptions{policy.ClientOptions{Cloud: cloud.AzurePublicCloud}})
+	options := arm.ClientOptions{
+		Host: armcore.AzurePublicCloud
+	}
+	tiClient := armsecurityinsights.NewThreatIntelligenceIndicatorClient(os.Getenv("Subscription"), creds, &options)
 	if azurecloud.CheckIndicator(tiClient, context.Background(), "Core", "win.emotet") {
 		log.Println("found it")
 	}
