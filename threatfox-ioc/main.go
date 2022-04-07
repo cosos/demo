@@ -18,7 +18,7 @@ func main() {
 	}
 	option := arm.ClientOptions{Endpoint: arm.AzurePublicCloud}
 	tiClient := armsecurityinsights.NewThreatIntelligenceIndicatorClient(os.Getenv("Subscription"), creds, &option)
-	if azurecloud.CheckIndicator(tiClient, context.Background(), "Core", "win.emotet") {
+	if azurecloud.CheckIndicator(tiClient, context.Background(), "Core", "Sentinel", "win.emotet") {
 		log.Println("found it")
 	}
 	log.Println("Resorces")
