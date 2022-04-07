@@ -6,7 +6,7 @@ require (
 	github.com/Azure/azure-sdk-for-go/sdk/azcore v0.21.0
 	github.com/Azure/azure-sdk-for-go/sdk/azidentity v0.13.2
 	github.com/Azure/azure-sdk-for-go/sdk/resourcemanager/securityinsights/armsecurityinsights v0.1.1
-	github.com/cosos/firefly/cloudlib v0.0.0-20220406005421-edff888ce23b
+	github.com/cosos/firefly/cloudlib v0.0.0-20220406051801-b6f982390fb6
 )
 
 require (
