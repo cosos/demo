@@ -26,6 +26,10 @@ github.com/AzureAD/microsoft-authentication-library-for-go v0.4.0/go.mod h1:Vt9s
 github.com/benbjohnson/clock v1.1.0/go.mod h1:J11/hYXuz8f4ySSvYwY0FKfm+ezbsZBKZxNJlLklBHA=
 github.com/cosos/firefly/cloudlib v0.0.0-20220408004610-0c4c173d44c1 h1:jHFovlkPmhKLQwYDMlOb54Kduxaf78xaAvEMZ+jf+f8=
 github.com/cosos/firefly/cloudlib v0.0.0-20220408004610-0c4c173d44c1/go.mod h1:Fh8CTw0hMVWfih+t6nNvfjXXTPnKWdjHAA4a93mACZs=
+github.com/cosos/firefly/cloudlib v0.0.0-20220408005254-beb970a99f74 h1:J+tJz5GvwFu4yLb7dbTNXJDzuz73xNgCWmSxVan8UNg=
+github.com/cosos/firefly/cloudlib v0.0.0-20220408005254-beb970a99f74/go.mod h1:Fh8CTw0hMVWfih+t6nNvfjXXTPnKWdjHAA4a93mACZs=
+github.com/cosos/firefly/cloudlib v0.0.0-20220408024834-02db74dc5c80 h1:8QAtYQ7uCRB8iu3sXxjY9e/YxGbsPrFa+Uhyc8yIeeI=
+github.com/cosos/firefly/cloudlib v0.0.0-20220408024834-02db74dc5c80/go.mod h1:Fh8CTw0hMVWfih+t6nNvfjXXTPnKWdjHAA4a93mACZs=
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/dnaeon/go-vcr v1.1.0/go.mod h1:M7tiix8f0r6mKKJ3Yq/kqU1OYf3MnfmBWVbPx/yU9ko=

@@ -13,7 +13,7 @@ require (
 	github.com/Azure/go-autorest/logger v0.2.1 // indirect
 	github.com/Azure/go-autorest/tracing v0.6.0 // indirect
 	github.com/AzureAD/microsoft-authentication-library-for-go v0.4.0 // indirect
-	github.com/cosos/firefly/cloudlib v0.0.0-20220408004610-0c4c173d44c1 // indirect
+	github.com/cosos/firefly/cloudlib v0.0.0-20220408024834-02db74dc5c80 // indirect
 	github.com/golang-jwt/jwt v3.2.1+incompatible // indirect
 	github.com/golang-jwt/jwt/v4 v4.2.0 // indirect
 	github.com/google/uuid v1.1.1 // indirect
