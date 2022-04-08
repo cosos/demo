@@ -42,6 +42,8 @@ github.com/cosos/firefly/cloudlib v0.0.0-20220407010110-482c1976b148 h1:QZlfiuh0
 github.com/cosos/firefly/cloudlib v0.0.0-20220407010110-482c1976b148/go.mod h1:rc8qT6sVYpKMTVEzWMZp90QMyaBXU/wuxvfVXzP/b2w=
 github.com/cosos/firefly/cloudlib v0.0.0-20220407011153-f674da201a15 h1:3vRS5uLAF9iuMhIAqsuqVOwVhsXQ8HwioZMzOXKGbFM=
 github.com/cosos/firefly/cloudlib v0.0.0-20220407011153-f674da201a15/go.mod h1:rc8qT6sVYpKMTVEzWMZp90QMyaBXU/wuxvfVXzP/b2w=
+github.com/cosos/firefly/cloudlib v0.0.0-20220408003558-1acc1213891e h1:X2EZTVOghhOTJSTqV0SFJRQg3VVs1BBSf3T43AzruoA=
+github.com/cosos/firefly/cloudlib v0.0.0-20220408003558-1acc1213891e/go.mod h1:Fh8CTw0hMVWfih+t6nNvfjXXTPnKWdjHAA4a93mACZs=
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
